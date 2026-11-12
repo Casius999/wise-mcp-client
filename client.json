@@ -1,0 +1,22 @@
+{
+    "client_id":  "https://casius999.github.io/wise-mcp-client/client.json",
+    "client_name":  "wise-mcp (Rust)",
+    "client_uri":  "https://github.com/Casius999/wise-mcp-client",
+    "redirect_uris":  [
+                          "http://127.0.0.1:53682/callback",
+                          "http://127.0.0.1:53683/callback",
+                          "http://127.0.0.1:53684/callback",
+                          "http://localhost:53682/callback"
+                      ],
+    "grant_types":  [
+                        "authorization_code",
+                        "refresh_token"
+                    ],
+    "response_types":  [
+                           "code"
+                       ],
+    "token_endpoint_auth_method":  "none",
+    "application_type":  "native",
+    "software_id":  "wise-mcp-rust",
+    "software_version":  "1.0.0"
+}
